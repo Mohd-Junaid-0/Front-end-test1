@@ -4,10 +4,10 @@ const Header = () => {
   return (
     <>
       {/* for  top header like shipping and phone number */}
-      <header className="pt-3 bg-black h-10">
-        <div>
+      <header className="pt-3 bg-black h-10 jus">
+        <div className=''>
           {/* for shipping side */}
-          <div className="flex text-white ">
+          <div className="flex text-white justify-evenly">
             <div className="pl-4">
               <p>Free shipping over $100 free returns</p>
             </div>
@@ -31,7 +31,7 @@ const Header = () => {
       {/* for logo ,search bar, login and for many activity */}
       <header className="bg-black ">
         <div>
-          <div className="flex">
+          <div className="flex justify-evenly">
             <div className="flex">
               {/* for logo  */}
               <div className="text-white h-16  mt-4">
@@ -66,9 +66,9 @@ const Header = () => {
             </div>
             {/* for comapre, login, wishlist and other functions */}
             <div>
-              <div className="flex">
+              <div className="flex justify-evenly">
                 {/* for compare */}
-                <div>
+                <div className='justify-evenly'>
                   <Link>
                     <img
                       src="/images/compare.svg"
@@ -127,7 +127,7 @@ const Header = () => {
       </header>
       {/* for third header for home, contact, blogs, store etc */}
       <header className="bg-gray-900 h-12 pt-2">
-        <div className="flex">
+        <div className="flex justify-evenly">
           {/* for dropdown list of wish item*/}
           <div className="w-40 bg-gray-900 pl-5 flex items-center" >
               <img src="/images/menu.svg" alt="menu logo" />

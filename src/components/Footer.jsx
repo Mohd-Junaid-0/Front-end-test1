@@ -57,7 +57,7 @@ const Footer = () => {
                 <Link className="mt-2" to="/serviceTerms">
                   Terms of Service
                 </Link>
-                <Link className="mt-2" to="/Blogs">
+                <Link className="mt-2" to="/Blog">
                   Blogs
                 </Link>
               </div>

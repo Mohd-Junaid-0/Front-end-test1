@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .verticalLine{
+        background-color: theme('colors.gray.50');
+        height:100%;
+        width:1;
+    }
+}
